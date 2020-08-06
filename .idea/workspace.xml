@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dcd69d8-2d63-4252-ac62-08cf06aa7464" name="Default Changelist" comment="" />
+    <list default="true" id="7dcd69d8-2d63-4252-ac62-08cf06aa7464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +41,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,15 +159,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fV8qjcv1gtlcgPlJwmLUTEALix" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -159,11 +191,27 @@
       <workItem from="1596292094913" duration="69000" />
       <workItem from="1596292177181" duration="2755000" />
       <workItem from="1596467097696" duration="2397000" />
+      <workItem from="1596501217879" duration="938000" />
+      <workItem from="1596634056878" duration="949000" />
+      <workItem from="1596724382018" duration="22000" />
+      <workItem from="1596724427290" duration="59000" />
+      <workItem from="1596724508784" duration="2064000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1596299438027">
@@ -182,9 +230,19 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1596299438027" />
-    <state x="783" y="437" key="NewPhpFileDialog" timestamp="1596294588771">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="783" y="458" key="NewPhpFileDialog" timestamp="1596727933841">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="783" y="437" key="NewPhpFileDialog/0.23.1920.977@0.23.1920.977" timestamp="1596294588771" />
+    <state x="783" y="458" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596727933841" />
+    <state x="469" y="179" key="SettingsEditor" timestamp="1596724713485">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596724477149" />
+    <state x="469" y="179" key="SettingsEditor/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1596724713485" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1596725296590">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596725296590" />
   </component>
 </project>
