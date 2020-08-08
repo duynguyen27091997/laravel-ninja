@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dcd69d8-2d63-4252-ac62-08cf06aa7464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_07_113203_create_pizzas_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pizza-house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/tuyen-vo-B2wLLcFi4Z0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pizzas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -39,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -167,12 +174,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -195,7 +209,10 @@
       <workItem from="1596634056878" duration="949000" />
       <workItem from="1596724382018" duration="22000" />
       <workItem from="1596724427290" duration="59000" />
-      <workItem from="1596724508784" duration="2064000" />
+      <workItem from="1596724508784" duration="2203000" />
+      <workItem from="1596770755863" duration="2652000" />
+      <workItem from="1596793713843" duration="2892000" />
+      <workItem from="1596874086520" duration="1545000" />
     </task>
     <servers />
   </component>
@@ -212,6 +229,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1596299438027">
@@ -230,11 +251,11 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1596299438027" />
-    <state x="783" y="458" key="NewPhpFileDialog" timestamp="1596727933841">
+    <state x="783" y="458" key="NewPhpFileDialog" timestamp="1596789314117">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="783" y="437" key="NewPhpFileDialog/0.23.1920.977@0.23.1920.977" timestamp="1596294588771" />
-    <state x="783" y="458" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596727933841" />
+    <state x="783" y="458" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596789314117" />
     <state x="469" y="179" key="SettingsEditor" timestamp="1596724713485">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
