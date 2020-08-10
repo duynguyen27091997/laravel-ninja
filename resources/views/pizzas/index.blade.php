@@ -16,16 +16,14 @@
     @endif
 
     <div class="content">
-        <img width="500" src="/img/tuyen-vo-B2wLLcFi4Z0-unsplash.jpg" alt="">
         <div class="title">
-            pizza list --{{ $name }} -- {{$age}}
+            pizza list
         </div>
+        <ul>
         @foreach($pizzas as $pizza )
-            <div>{{$loop->index}}{{$pizza['type']}} -- {{$pizza['base']}}</div>
-            @if($loop->first)
-                first in the loop
-            @endif
+            <li>{{$loop->index}}-- {{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
         @endforeach
+        </ul>
     </div>
     <section>
     </section>

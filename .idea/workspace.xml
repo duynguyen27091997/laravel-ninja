@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dcd69d8-2d63-4252-ac62-08cf06aa7464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Pizzas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_09_082108_add_price_to_pizzas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_09_082108_add_price_to_pizzas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +183,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/pizzas" />
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
@@ -256,9 +262,10 @@
     </state>
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596724477149" />
     <state x="469" y="179" key="SettingsEditor/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1596724713485" />
-    <state x="625" y="255" key="run.anything.popup" timestamp="1596725296590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="625" y="254" key="run.anything.popup" timestamp="1596984165105">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="625" y="255" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596725296590" />
+    <state x="625" y="254" key="run.anything.popup/1920.23.1920.1057/0.23.1920.977@0.23.1920.977" timestamp="1596984165105" />
   </component>
 </project>
