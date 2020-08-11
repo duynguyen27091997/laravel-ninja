@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dcd69d8-2d63-4252-ac62-08cf06aa7464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_09_082108_add_price_to_pizzas_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Pizza.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pizzas/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_07_113203_create_pizzas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_07_113203_create_pizzas_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +180,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/pizzas" />
       <recent name="$PROJECT_DIR$/public/img" />
     </key>
   </component>
@@ -209,7 +214,10 @@
       <workItem from="1596793713843" duration="2892000" />
       <workItem from="1596874086520" duration="1545000" />
       <workItem from="1596952498886" duration="3304000" />
-      <workItem from="1596960015206" duration="1367000" />
+      <workItem from="1596960015206" duration="4042000" />
+      <workItem from="1597027186953" duration="1218000" />
+      <workItem from="1597030433034" duration="648000" />
+      <workItem from="1597031434834" duration="4744000" />
     </task>
     <servers />
   </component>
@@ -248,16 +256,22 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1596299438027" />
-    <state x="783" y="458" key="NewPhpFileDialog" timestamp="1596789314117">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="783" y="441" width="354" height="150" key="NewPhpFileDialog" timestamp="1597046368614">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="783" y="441" width="354" height="150" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1597046368614" />
     <state x="783" y="437" key="NewPhpFileDialog/0.23.1920.977@0.23.1920.977" timestamp="1596294588771" />
     <state x="783" y="458" key="NewPhpFileDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596789314117" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1596724713485">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="469" y="172" key="SettingsEditor" timestamp="1597027215843">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="469" y="172" key="SettingsEditor/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1597027215843" />
     <state x="469" y="179" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596724477149" />
     <state x="469" y="179" key="SettingsEditor/1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1596724713485" />
+    <state x="667" y="118" width="585" height="801" key="find.popup" timestamp="1597045935326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="118" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1280.1024@0.0.1920.1040" timestamp="1597045935326" />
     <state x="625" y="255" key="run.anything.popup" timestamp="1596725296590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
