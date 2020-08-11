@@ -19,11 +19,18 @@
         <div class="title">
             pizza list
         </div>
+        @if(count($pizzas))
         <ul>
         @foreach($pizzas as $pizza )
-            <li>{{$loop->index}}-- {{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
+            <li><a href="/pizzas/{{$pizza->id}}">+</a> {{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
         @endforeach
         </ul>
+        @else
+            <p>No pizzas order</p>
+        @endif
+        <div>
+            <a href="/pizzas/create">Order pizza</a>
+        </div>
     </div>
     <section>
     </section>

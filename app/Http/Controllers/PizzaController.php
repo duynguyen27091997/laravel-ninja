@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Pizza;
 
 class PizzaController extends Controller
@@ -29,9 +28,20 @@ class PizzaController extends Controller
 
     //handle create new pizza
     public function store(){
-        error_log(request('name'));
-        error_log(request('base'));
-        error_log(request('type'));
+        $pizza = new Pizza();
+        $pizza->name = request('name');
+        $pizza->base = request('base');
+        $pizza->type = request('type');
+        $pizza->toppings = request('toppings');
+        $pizza->save();
+        return redirect('/')->with('msg','Thank for your order');
+    }
+    public function destroy($id){
+        $pizza = Pizza::query()->findOrFail($id);
+        try {
+            $pizza->delete();
+        } catch (\Exception $e) {
+        }
         return redirect('/pizzas');
     }
 }
