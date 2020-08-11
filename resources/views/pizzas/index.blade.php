@@ -21,7 +21,7 @@
         </div>
         <ul>
         @foreach($pizzas as $pizza )
-            <li>{{$loop->index}}----{{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
+            <li>{{$loop->index}}-- {{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
         @endforeach
         </ul>
     </div>
