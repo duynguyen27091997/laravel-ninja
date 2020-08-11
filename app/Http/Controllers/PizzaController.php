@@ -9,7 +9,7 @@ class PizzaController extends Controller
 {
     public function index(){
 
-        $pizzas = Pizza::query()->where('type','Hawaiian')->get();
+        $pizzas = Pizza::all();
         return view('pizzas.index', [
             'pizzas' => $pizzas,
             'name'=>request('name'),
