@@ -15,16 +15,18 @@
         </div>
     @endif
 
-    <div class="content">
+    <div class="wrapper pizza-index">
         <div class="title">
             pizza list
         </div>
         @if(count($pizzas))
-        <ul>
+
         @foreach($pizzas as $pizza )
-            <li><a href="/pizzas/{{$pizza->id}}">+</a> {{$pizza['name']}} -- {{$pizza['type']}} -- {{$pizza['base']}}</li>
+            <div class="pizza-item">
+                <img src="/img/pizza.png" alt="pizza icon">
+            <h4><a href="/pizzas/{{$pizza->id}}"> {{$pizza['name']}}</a></h4>
+            </div>
         @endforeach
-        </ul>
         @else
             <p>No pizzas order</p>
         @endif
