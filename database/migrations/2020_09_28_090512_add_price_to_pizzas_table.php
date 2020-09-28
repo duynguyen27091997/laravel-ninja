@@ -14,7 +14,8 @@ class AddPriceToPizzasTable extends Migration
     public function up()
     {
         Schema::table('pizzas', function (Blueprint $table) {
-           //$table->integer('price');
+            $table->double('price')->default(500);
+            //
         });
     }
 
