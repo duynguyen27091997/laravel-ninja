@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/pizzas', 'PizzaController@index');
-Route::post('/pizzas', 'PizzaController@store');
-Route::get('/pizzas/create','PizzaController@create');
-Route::get('/pizzas/{id}','PizzaController@show');
-Route::delete('/pizzas/{id}','PizzaController@destroy');
+Route::get('/pizzas', 'PizzaController@index')->name('pizzas.index')->middleware('auth');
+Route::post('/pizzas', 'PizzaController@store')->name('pizzas.store');
+Route::get('/pizzas/create','PizzaController@create')->name('pizzas.create');
+Route::get('/pizzas/{id}','PizzaController@show')->middleware('auth')->name('pizzas.show');
+Route::delete('/pizzas/{id}','PizzaController@destroy')->name('pizzas.destroy');
 
 Auth::routes();
 

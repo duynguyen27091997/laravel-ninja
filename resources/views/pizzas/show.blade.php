@@ -16,6 +16,7 @@
             @method('delete')
             <button>Complete order</button>
         </form>
+        <hr>
+        <a href="/pizzas"><- back to all pizzas</a>
     </div>
-    <a href="/pizzas"><- back to all pizzas</a>
 @endsection
